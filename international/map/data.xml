@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countrydata>
+  
+  <state id="default_color">
+    <color>999999</color>
+  </state>
+  <state id="background_color">
+    <color>333333</color>
+  </state>
+  <state id="outline_color">
+    <color>aaaaaa</color>
+  </state>
+  
+  <state id="zoom_mode">
+    <data>no zoom</data>
+  </state>
+  
+  <state id="AF">
+    <url>javascript:clickCountry("af")</url>
+    <name>Afghanistan</name>
+  </state>
+  <state id="AL">
+    <url>javascript:clickCountry("al")</url>
+    <name>Albania</name>
+  </state>
+  <state id="AG">
+    <url>javascript:clickCountry("ag")</url>
+    <name>Algeria</name>
+  </state>
+  <state id="AN">
+    <url>javascript:clickCountry("ad")</url>
+    <name>Andorra</name>
+  </state>
+  <state id="AO">
+    <url>javascript:clickCountry("ao")</url>
+    <name>Angola</name>
+  </state>
+  <state id="AC">
+    <url>javascript:clickCountry("ag")</url>
+    <name>Antigua and Barbuda</name>
+  </state>
+  <state id="AR">
+    <url>javascript:clickCountry("ar")</url>
+    <name>Argentina</name>
+  </state>
+  <state id="AM">
+    <url>javascript:clickCountry("am")</url>
+    <name>Armenia</name>
+  </state>
+  <state id="AA">
+    <url>javascript:clickCountry("aw")</url>
+    <name>Aruba</name>
+  </state>
+  <state id="AS">
+    <url>javascript:clickCountry("au")</url>
+    <name>Australia</name>
+  </state>
+  <state id="AU">
+    <url>javascript:clickCountry("at")</url>
+    <name>Austria</name>
+  </state>
+  <state id="AJ">
+    <url>javascript:clickCountry("az")</url>
+    <name>Azerbaijan</name>
+  </state>
+  <!-- <state id="AZ">
+    <url>javascript:clickCountry("AZ")</url>
+    <name>Azores (Pt.)</name>
+  </state> -->
+  <state id="BF">
+    <url>javascript:clickCountry("bs")</url>
+    <name>Bahamas</name>
+  </state>
+  <state id="BA">
+    <url>javascript:clickCountry("bh")</url>
+    <name>Bahrain</name>
+  </state>
+  <state id="BG">
+    <url>javascript:clickCountry("bd")</url>
+    <name>Bangladesh</name>
+  </state>
+  <state id="BB">
+    <url>javascript:clickCountry("bb")</url>
+    <name>Barbados</name>
+  </state>
+  <state id="BO">
+    <url>javascript:clickCountry("by")</url>
+    <name>Belarus</name>
+  </state>
+  <state id="BE">
+    <url>javascript:clickCountry("be")</url>
+    <name>Belgium</name>
+  </state>
+  <state id="BH">
+    <url>javascript:clickCountry("bz")</url>
+    <name>Belize</name>
+  </state>
+  <state id="BN">
+    <url>javascript:clickCountry("bj")</url>
+    <name>Benin</name>
+  </state>
+  <state id="BD">
+    <url>javascript:clickCountry("bm")</url>
+    <name>Bermuda</name>
+  </state>
+  <state id="BT">
+    <url>javascript:clickCountry("bt")</url>
+    <name>Bhutan</name>
+  </state>
+  <state id="BL">
+    <url>javascript:clickCountry("bo")</url>
+    <name>Bolivia</name>
+  </state>
+  <state id="BK">
+    <url>javascript:clickCountry("ba")</url>
+    <name>Bosnia and Herzegovina</name>
+  </state>
+  <state id="BC">
+    <url>javascript:clickCountry("bw")</url>
+    <name>Botswana</name>
+  </state>
+  <state id="BR">
+    <url>javascript:clickCountry("br")</url>
+    <name>Brazil</name>
+  </state>
+  <state id="IO">
+    <url>javascript:clickCountry("io")</url>
+    <name>British Indian Ocean Territory</name>
+  </state>
+  <state id="VI">
+    <url>javascript:clickCountry("vg")</url>
+    <name>British Virgin Islands</name>
+  </state>
+  <state id="BX">
+    <url>javascript:clickCountry("bn")</url>
+    <name>Brunei Darussalam</name>
+  </state>
+  <state id="BU">
+    <url>javascript:clickCountry("bg")</url>
+    <name>Bulgaria</name>
+  </state>
+  <state id="UV">
+    <url>javascript:clickCountry("bf")</url>
+    <name>Burkina Faso</name>
+  </state>
+  <state id="BY">
+    <url>javascript:clickCountry("bi")</url>
+    <name>Burundi</name>
+  </state>
+  <state id="CB">
+    <url>javascript:clickCountry("kh")</url>
+    <name>Cambodia</name>
+  </state>
+  <state id="CM">
+    <url>javascript:clickCountry("cm")</url>
+    <name>Cameroon</name>
+  </state>
+  <state id="CA">
+    <url>javascript:clickCountry("ca")</url>
+    <name>Canada</name>
+  </state>
+  <state id="CV">
+    <url>javascript:clickCountry("cv")</url>
+    <name>Cape Verde</name>
+  </state>
+  <state id="CJ">
+    <url>javascript:clickCountry("ky")</url>
+    <name>Cayman Islands</name>
+  </state>
+  <state id="CT">
+    <url>javascript:clickCountry("cf")</url>
+    <name>Central African Republic</name>
+  </state>
+  <state id="CD">
+    <url>javascript:clickCountry("td")</url>
+    <name>Chad</name>
+  </state>
+  <state id="CI">
+    <url>javascript:clickCountry("cl")</url>
+    <name>Chile</name>
+  </state>
+  <state id="CH">
+    <url>javascript:clickCountry("cn")</url>
+    <name>China</name>
+  </state>
+  <state id="CO">
+    <url>javascript:clickCountry("co")</url>
+    <name>Colombia</name>
+  </state>
+  <state id="CN">
+    <url>javascript:clickCountry("km")</url>
+    <name>Comoros</name>
+  </state>
+  <state id="CF">
+    <url>javascript:clickCountry("cg")</url>
+    <name>Congo</name>
+  </state>
+  <state id="CW">
+    <url>javascript:clickCountry("ck")</url>
+    <name>Cook Islands</name>
+  </state>
+  <!-- <state id="CP">
+    <url>javascript:clickCountry("CP")</url>
+    <name>Canary Islands (Sp.)</name>
+  </state> -->
+  <state id="CG">
+    <url>javascript:clickCountry("cd")</url>
+    <name>Democratic Republic of the Congo</name>
+  </state>
+  <state id="CS">
+    <url>javascript:clickCountry("cr")</url>
+    <name>Costa Rica</name>
+  </state>
+  <state id="IV">
+    <url>javascript:clickCountry("ci")</url>
+    <name>Cote d'Ivoire</name>
+  </state>
+  <state id="HR">
+    <url>javascript:clickCountry("hr")</url>
+    <name>Croatia</name>
+  </state>
+  <state id="CU">
+    <url>javascript:clickCountry("cu")</url>
+    <name>Cuba</name>
+  </state>
+  <state id="CY">
+    <url>javascript:clickCountry("cy")</url>
+    <name>Cyprus</name>
+  </state>
+  <state id="EZ">
+    <url>javascript:clickCountry("cz")</url>
+    <name>Czech Republic</name>
+  </state>
+  <state id="DA">
+    <url>javascript:clickCountry("dk")</url>
+    <name>Denmark</name>
+  </state>
+  <state id="DJ">
+    <url>javascript:clickCountry("dj")</url>
+    <name>Djibouti</name>
+  </state>
+  <state id="DO">
+    <url>javascript:clickCountry("dm")</url>
+    <name>Dominica</name>
+  </state>
+  <state id="DR">
+    <url>javascript:clickCountry("do")</url>
+    <name>Dominican Republic</name>
+  </state>
+  <state id="EC">
+    <url>javascript:clickCountry("ec")</url>
+    <name>Ecuador</name>
+  </state>
+  <state id="EG">
+    <url>javascript:clickCountry("eg")</url>
+    <name>Egypt</name>
+  </state>
+  <state id="ES">
+    <url>javascript:clickCountry("sv")</url>
+    <name>El Salvador</name>
+  </state>
+  <state id="EK">
+    <url>javascript:clickCountry("gq")</url>
+    <name>Equatorial Guinea</name>
+  </state>
+  <state id="ER">
+    <url>javascript:clickCountry("er")</url>
+    <name>Eritrea</name>
+  </state>
+  <state id="EN">
+    <url>javascript:clickCountry("ee")</url>
+    <name>Estonia</name>
+  </state>
+  <state id="ET">
+    <url>javascript:clickCountry("et")</url>
+    <name>Ethiopia</name>
+  </state>
+  <state id="FK">
+    <url>javascript:clickCountry("fk")</url>
+    <name>Falkland Islands (Islas Malvinas)</name>
+  </state>
+  <state id="FO">
+    <url>javascript:clickCountry("fo")</url>
+    <name>Faroe Islands</name>
+  </state>
+  <state id="FM">
+    <url>javascript:clickCountry("fm")</url>
+    <name>Federated States of Micronesia</name>
+  </state>
+  <state id="FJ">
+    <url>javascript:clickCountry("fj")</url>
+    <name>Fiji</name>
+  </state>
+  <state id="FI">
+    <url>javascript:clickCountry("fi")</url>
+    <name>Finland</name>
+  </state>
+  <state id="FR">
+    <url>javascript:clickCountry("fr")</url>
+    <name>France</name>
+  </state>
+  <!-- <state id="FG">
+    <url>javascript:clickCountry("FG")</url>
+    <name>French Guiana</name>
+  </state> -->
+  <state id="GB">
+    <url>javascript:clickCountry("ga")</url>
+    <name>Gabon</name>
+  </state>
+  <state id="GA">
+    <url>javascript:clickCountry("gm")</url>
+    <name>Gambia</name>
+  </state>
+  <state id="GG">
+    <url>javascript:clickCountry("ge")</url>
+    <name>Georgia</name>
+  </state>
+  <state id="GM">
+    <url>javascript:clickCountry("de")</url>
+    <name>Germany</name>
+  </state>
+  <state id="GH">
+    <url>javascript:clickCountry("gh")</url>
+    <name>Ghana</name>
+  </state>
+  <state id="GI">
+    <url>javascript:clickCountry("gi")</url>
+    <name>Gibraltar (UK)</name>
+  </state>
+  <!-- <state id="GO">
+    <url>javascript:clickCountry("GO")</url>
+    <name>Glorioso Islands</name>
+  </state> -->
+  <state id="GR">
+    <url>javascript:clickCountry("gr")</url>
+    <name>Greece</name>
+  </state>
+  <state id="GL">
+    <url>javascript:clickCountry("gl")</url>
+    <name>Greenland</name>
+  </state>
+  <state id="GJ">
+    <url>javascript:clickCountry("gd")</url>
+    <name>Grenada</name>
+  </state>
+  <!-- <state id="GP">
+    <url>javascript:clickCountry("GP")</url>
+    <name>Guadeloupe</name>
+  </state> -->
+  <state id="GQ">
+    <url>javascript:clickCountry("gu")</url>
+    <name>Guam</name>
+  </state>
+  <state id="GT">
+    <url>javascript:clickCountry("gt")</url>
+    <name>Guatemala</name>
+  </state>
+  <state id="GV">
+    <url>javascript:clickCountry("gn")</url>
+    <name>Guinea</name>
+  </state>
+  <state id="GK">
+    <url>javascript:clickCountry("gg")</url>
+    <name>Guernsey</name>
+  </state>
+  <state id="PU">
+    <url>javascript:clickCountry("gw")</url>
+    <name>Guinea-Bissau</name>
+  </state>
+  <state id="GY">
+    <url>javascript:clickCountry("gy")</url>
+    <name>Guyana</name>
+  </state>
+  <state id="HA">
+    <url>javascript:clickCountry("ht")</url>
+    <name>Haiti</name>
+  </state>
+  <state id="HO">
+    <url>javascript:clickCountry("hn")</url>
+    <name>Honduras</name>
+  </state>
+  <state id="HK">
+    <url>javascript:clickCountry("hk")</url>
+    <name>Hong Kong</name>
+  </state>
+  <state id="HU">
+    <url>javascript:clickCountry("hu")</url>
+    <name>Hungary</name>
+  </state>
+  <state id="IC">
+    <url>javascript:clickCountry("is")</url>
+    <name>Iceland</name>
+  </state>
+  <state id="IN">
+    <url>javascript:clickCountry("in")</url>
+    <name>India</name>
+  </state>
+  <state id="IO">
+    <url>javascript:clickCountry("io")</url>
+    <name>British Indian Ocean Territory</name>
+  </state>
+  <state id="ID">
+    <url>javascript:clickCountry("id")</url>
+    <name>Indonesia</name>
+  </state>
+  <state id="IR">
+    <url>javascript:clickCountry("ir")</url>
+    <name>Iran</name>
+  </state>
+  <state id="IZ">
+    <url>javascript:clickCountry("iq")</url>
+    <name>Iraq</name>
+  </state>
+  <state id="EI">
+    <url>javascript:clickCountry("ie")</url>
+    <name>Ireland</name>
+  </state>
+  <state id="IM">
+    <url>javascript:clickCountry("im")</url>
+    <name>Isle of Man</name>
+  </state>
+  <state id="IS">
+    <url>javascript:clickCountry("il")</url>
+    <name>Israel</name>
+  </state>
+  <state id="IT">
+    <url>javascript:clickCountry("it")</url>
+    <name>Italy</name>
+  </state>
+  <state id="JM">
+    <url>javascript:clickCountry("jm")</url>
+    <name>Jamaica</name>
+  </state>
+  <!-- <state id="JN">
+    <url>javascript:clickCountry("JN")</url>
+    <name>Jan Mayen</name>
+  </state> -->
+  <state id="JA">
+    <url>javascript:clickCountry("jp")</url>
+    <name>Japan</name>
+  </state>
+  <!-- <state id="DQ">
+    <url>javascript:clickCountry("DQ")</url>
+    <name>Jarvis Island</name>
+  </state> -->
+  <state id="JE">
+    <url>javascript:clickCountry("je")</url>
+    <name>Jersey</name>
+  </state>
+  <!-- <state id="JQ">
+    <url>javascript:clickCountry("JQ")</url>
+    <name>Johnston Atoll</name>
+  </state> -->
+  <state id="JO">
+    <url>javascript:clickCountry("jo")</url>
+    <name>Jordan</name>
+  </state>
+  <!-- <state id="JU">
+    <url>javascript:clickCountry("JU")</url>
+    <name>Juan De Nova Island</name>
+  </state> -->
+  <state id="KZ">
+    <url>javascript:clickCountry("kz")</url>
+    <name>Kazakhstan</name>
+  </state>
+  <state id="KR">
+    <url>javascript:clickCountry("ki")</url>
+    <name>Kiribati</name>
+  </state>
+  <state id="KE">
+    <url>javascript:clickCountry("ke")</url>
+    <name>Kenya</name>
+  </state>
+  <state id="KS">
+    <url>javascript:clickCountry("kr")</url>
+    <name>South Korea</name>
+  </state>
+  <state id="KU">
+    <url>javascript:clickCountry("kw")</url>
+    <name>Kuwait</name>
+  </state>
+  <state id="KG">
+    <url>javascript:clickCountry("kg")</url>
+    <name>Kyrgyzstan</name>
+  </state>
+  <state id="LA">
+    <url>javascript:clickCountry("la")</url>
+    <name>Laos</name>
+  </state>
+  <state id="LG">
+    <url>javascript:clickCountry("lv")</url>
+    <name>Latvia</name>
+  </state>
+  <state id="LE">
+    <url>javascript:clickCountry("lb")</url>
+    <name>Lebanon</name>
+  </state>
+  <state id="LT">
+    <url>javascript:clickCountry("ls")</url>
+    <name>Lesotho</name>
+  </state>
+  <state id="LI">
+    <url>javascript:clickCountry("lr")</url>
+    <name>Liberia</name>
+  </state>
+  <state id="LY">
+    <url>javascript:clickCountry("ly")</url>
+    <name>Libyan Arab Jamahiriya</name>
+  </state>
+  <state id="LS">
+    <url>javascript:clickCountry("li")</url>
+    <name>Liechtenstein</name>
+  </state>
+  <state id="LH">
+    <url>javascript:clickCountry("lt")</url>
+    <name>Lithuania</name>
+  </state>
+  <state id="LU">
+    <url>javascript:clickCountry("lu")</url>
+    <name>Luxembourg</name>
+  </state>
+  <state id="MK">
+    <url>javascript:clickCountry("mk")</url>
+    <name>Macedonia,TFYR</name>
+  </state>
+  <state id="MA">
+    <url>javascript:clickCountry("mg")</url>
+    <name>Madagascar</name>
+  </state>
+  <!-- <state id="ME">
+    <url>javascript:clickCountry("ME")</url>
+    <name>Madeira (Pt.)</name>
+  </state> -->
+  <state id="MI">
+    <url>javascript:clickCountry("mw")</url>
+    <name>Malawi</name>
+  </state>
+  <state id="MY">
+    <url>javascript:clickCountry("my")</url>
+    <name>Malaysia</name>
+  </state>
+  <state id="MV">
+    <url>javascript:clickCountry("mv")</url>
+    <name>Maldives</name>
+  </state>
+  <state id="ML">
+    <url>javascript:clickCountry("ml")</url>
+    <name>Mali</name>
+  </state>
+  <state id="MT">
+    <url>javascript:clickCountry("mt")</url>
+    <name>Malta</name>
+  </state>
+  <state id="RM">
+    <url>javascript:clickCountry("mh")</url>
+    <name>Marshall Islands</name>
+  </state>
+  <!-- <state id="MB">
+    <url>javascript:clickCountry("MB")</url>
+    <name>Martinique</name>
+  </state> -->
+  <state id="MR">
+    <url>javascript:clickCountry("mr")</url>
+    <name>Mauritania</name>
+  </state>
+  <state id="MP">
+    <url>javascript:clickCountry("mu")</url>
+    <name>Mauritius</name>
+  </state>
+  <state id="MF">
+    <url>javascript:clickCountry("yt")</url>
+    <name>Mayotte</name>
+  </state>
+  <state id="MX">
+    <url>javascript:clickCountry("mx")</url>
+    <name>Mexico</name>
+  </state>
+  <!-- <state id="MQ">
+    <url>javascript:clickCountry("MQ")</url>
+    <name>Midway Islands</name>
+  </state> -->
+  <state id="MD">
+    <url>javascript:clickCountry("md")</url>
+    <name>Moldova</name>
+  </state>
+  <state id="MN">
+    <url>javascript:clickCountry("mc")</url>
+    <name>Monaco</name>
+  </state>
+  <state id="MG">
+    <url>javascript:clickCountry("mn")</url>
+    <name>Mongolia</name>
+  </state>
+  <state id="MH">
+    <url>javascript:clickCountry("ms")</url>
+    <name>Montserrat</name>
+  </state>
+  <state id="MW">
+    <url>javascript:clickCountry("me")</url>
+    <name>Montenegro</name>
+  </state>
+  <state id="MO">
+    <url>javascript:clickCountry("ma")</url>
+    <name>Morocco</name>
+  </state>
+  <state id="MZ">
+    <url>javascript:clickCountry("mz")</url>
+    <name>Mozambique</name>
+  </state>
+  <state id="BM">
+    <url>javascript:clickCountry("mm")</url>
+    <name>Myanmar (Burma)</name>
+  </state>
+  <state id="WA">
+    <url>javascript:clickCountry("na")</url>
+    <name>Namibia</name>
+  </state>
+  <state id="NR">
+    <url>javascript:clickCountry("nr")</url>
+    <name>Nauru</name>
+  </state>
+  <state id="NP">
+    <url>javascript:clickCountry("np")</url>
+    <name>Nepal</name>
+  </state>
+  <state id="NT">
+    <url>javascript:clickCountry("an")</url>
+    <name>Netherlands Antilles</name>
+  </state>
+  <state id="NL">
+    <url>javascript:clickCountry("nl")</url>
+    <name>Netherlands</name>
+  </state>
+  <state id="NC">
+    <url>javascript:clickCountry("nc")</url>
+    <name>New Caledonia</name>
+  </state>
+  <state id="NZ">
+    <url>javascript:clickCountry("nz")</url>
+    <name>New Zealand</name>
+  </state>
+  <state id="NU">
+    <url>javascript:clickCountry("ni")</url>
+    <name>Nicaragua</name>
+  </state>
+  <state id="NG">
+    <url>javascript:clickCountry("ne")</url>
+    <name>Niger</name>
+  </state>
+  <state id="NI">
+    <url>javascript:clickCountry("ng")</url>
+    <name>Nigeria</name>
+  </state>
+  <state id="NE">
+    <url>javascript:clickCountry("nu")</url>
+    <name>Niue</name>
+  </state>
+  <state id="NF">
+    <url>javascript:clickCountry("nf")</url>
+    <name>Norfolk Island</name>
+  </state>
+  <state id="KN">
+    <url>javascript:clickCountry("kp")</url>
+    <name>North Korea</name>
+  </state>
+  <state id="CQ">
+    <url>javascript:clickCountry("mp")</url>
+    <name>Northern Mariana Islands</name>
+  </state>
+  <state id="NO">
+    <url>javascript:clickCountry("no")</url>
+    <name>Norway</name>
+  </state>
+  <state id="GZ">
+    <url>javascript:clickCountry("ps")</url>
+    <name>Occupied Palestinian Territories</name>
+  </state>
+  <state id="MU">
+    <url>javascript:clickCountry("om")</url>
+    <name>Oman</name>
+  </state>
+  <state id="PS">
+    <url>javascript:clickCountry("pw")</url>
+    <name>Pacific Islands (Palau)</name>
+  </state>
+  <state id="PK">
+    <url>javascript:clickCountry("pk")</url>
+    <name>Pakistan</name>
+  </state>
+  <state id="PM">
+    <url>javascript:clickCountry("pa")</url>
+    <name>Panama</name>
+  </state>
+  <state id="PP">
+    <url>javascript:clickCountry("pg")</url>
+    <name>Papua New Guinea</name>
+  </state>
+  <state id="PA">
+    <url>javascript:clickCountry("py")</url>
+    <name>Paraguay</name>
+  </state>
+  <state id="PE">
+    <url>javascript:clickCountry("pe")</url>
+    <name>Peru</name>
+  </state>
+  <state id="RP">
+    <url>javascript:clickCountry("ph")</url>
+    <name>Philippines</name>
+  </state>
+  <state id="PL">
+    <url>javascript:clickCountry("pl")</url>
+    <name>Poland</name>
+  </state>
+  <state id="PO">
+    <url>javascript:clickCountry("pt")</url>
+    <name>Portugal</name>
+  </state>
+  <state id="RQ">
+    <url>javascript:clickCountry("pr")</url>
+    <name>Puerto Rico</name>
+  </state>
+  <state id="QA">
+    <url>javascript:clickCountry("qa")</url>
+    <name>Qatar</name>
+  </state>
+  <!-- <state id="RE">
+    <url>javascript:clickCountry("RE")</url>
+    <name>Reunion</name>
+  </state> -->
+  <state id="RO">
+    <url>javascript:clickCountry("ro")</url>
+    <name>Romania</name>
+  </state>
+  <state id="RS">
+    <url>javascript:clickCountry("ru")</url>
+    <name>Russian Federation</name>
+  </state>
+  <state id="RW">
+    <url>javascript:clickCountry("rw")</url>
+    <name>Rwanda</name>
+  </state>
+  <state id="SC">
+    <url>javascript:clickCountry("kn")</url>
+    <name>Saint Kitts and Nevis</name>
+  </state>
+  <state id="ST">
+    <url>javascript:clickCountry("lc")</url>
+    <name>Saint Lucia</name>
+  </state>
+  <state id="SM">
+    <url>javascript:clickCountry("sm")</url>
+    <name>San Marino</name>
+  </state>
+  <state id="WS">
+    <url>javascript:clickCountry("ws")</url>
+    <name>Western Samoa</name>
+  </state>
+  <state id="TP">
+    <url>javascript:clickCountry("st")</url>
+    <name>Sao Tome and Principe</name>
+  </state>
+  <state id="SA">
+    <url>javascript:clickCountry("sa")</url>
+    <name>Saudi Arabia</name>
+  </state>
+  <state id="SG">
+    <url>javascript:clickCountry("sn")</url>
+    <name>Senegal</name>
+  </state>
+  <state id="SR">
+    <url>javascript:clickCountry("rs")</url>
+    <name>Serbia</name>
+  </state>
+  <!-- <state id="KV">
+    <url>javascript:clickCountry("KV")</url>
+    <name>Kosovo</name>
+  </state> -->
+  <state id="SE">
+    <url>javascript:clickCountry("sc")</url>
+    <name>Seychelles</name>
+  </state>
+  <state id="SL">
+    <url>javascript:clickCountry("sl")</url>
+    <name>Sierra Leone</name>
+  </state>
+  <state id="SN">
+    <url>javascript:clickCountry("sg")</url>
+    <name>Singapore</name>
+  </state>
+  <state id="LO">
+    <url>javascript:clickCountry("sk")</url>
+    <name>Slovakia</name>
+  </state>
+  <state id="SI">
+    <url>javascript:clickCountry("si")</url>
+    <name>Slovenia</name>
+  </state>
+  <state id="BP">
+    <url>javascript:clickCountry("sb")</url>
+    <name>Solomon Islands</name>
+  </state>
+  <state id="SO">
+    <url>javascript:clickCountry("so")</url>
+    <name>Somalia</name>
+  </state>
+  <state id="SF">
+    <url>javascript:clickCountry("za")</url>
+    <name>South Africa</name>
+  </state>
+  <!-- <state id="SX">
+    <url>javascript:clickCountry("SX")</url>
+    <name>South Georgia and the South Sandwich Islands</name>
+  </state> -->
+  <state id="SP">
+    <url>javascript:clickCountry("sp")</url>
+    <name>Spain</name>
+  </state>
+  <state id="CE">
+    <url>javascript:clickCountry("lk")</url>
+    <name>Sri Lanka</name>
+  </state>
+  <state id="VC">
+    <url>javascript:clickCountry("vc")</url>
+    <name>St. Vincent and the Grenadines</name>
+  </state>
+  <state id="SU">
+    <url>javascript:clickCountry("sd")</url>
+    <name>Sudan</name>
+  </state>
+  <!-- <state id="TE">
+    <url>javascript:clickCountry("TE")</url>
+    <name>East Timor</name>
+  </state> -->
+  <state id="NS">
+    <url>javascript:clickCountry("sr")</url>
+    <name>Suriname</name>
+  </state>
+  <state id="SV">
+    <url>javascript:clickCountry("sj")</url>
+    <name>Svalbard</name>
+  </state>
+  <state id="WZ">
+    <url>javascript:clickCountry("sz")</url>
+    <name>Swaziland</name>
+  </state>
+  <state id="SW">
+    <url>javascript:clickCountry("se")</url>
+    <name>Sweden</name>
+  </state>
+  <state id="SZ">
+    <url>javascript:clickCountry("ch")</url>
+    <name>Switzerland</name>
+  </state>
+  <state id="SY">
+    <url>javascript:clickCountry("sy")</url>
+    <name>Syrian Arab Republic</name>
+  </state>
+  <!-- <state id="FP">
+    <url>javascript:clickCountry("FP")</url>
+    <name>Tahiti (French Polynesia)</name>
+  </state> -->
+  <state id="TW">
+    <url>javascript:clickCountry("tw")</url>
+    <name>Taiwan</name>
+  </state>
+  <state id="TI">
+    <url>javascript:clickCountry("tj")</url>
+    <name>Tajikistan</name>
+  </state>
+  <state id="TZ">
+    <url>javascript:clickCountry("tz")</url>
+    <name>United Republic of Tanzania</name>
+  </state>
+  <state id="TH">
+    <url>javascript:clickCountry("th")</url>
+    <name>Thailand</name>
+  </state>
+  <state id="TO">
+    <url>javascript:clickCountry("tg")</url>
+    <name>Togo</name>
+  </state>
+  <state id="TN">
+    <url>javascript:clickCountry("to")</url>
+    <name>Tonga</name>
+  </state>
+  <state id="TD">
+    <url>javascript:clickCountry("tt")</url>
+    <name>Trinidad and Tobago</name>
+  </state>
+  <state id="TS">
+    <url>javascript:clickCountry("tn")</url>
+    <name>Tunisia</name>
+  </state>
+  <state id="TU">
+    <url>javascript:clickCountry("tr")</url>
+    <name>Turkey</name>
+  </state>
+  <state id="TX">
+    <url>javascript:clickCountry("tm")</url>
+    <name>Turkmenistan</name>
+  </state>
+  <state id="TK">
+    <url>javascript:clickCountry("tc")</url>
+    <name>Turks and Caicos Islands</name>
+  </state>
+  <state id="TV">
+    <url>javascript:clickCountry("tv")</url>
+    <name>Tuvalu</name>
+  </state>
+  <state id="UG">
+    <url>javascript:clickCountry("ug")</url>
+    <name>Uganda</name>
+  </state>
+  <state id="UP">
+    <url>javascript:clickCountry("ua")</url>
+    <name>Ukraine</name>
+  </state>
+  <state id="TC">
+    <url>javascript:clickCountry("ae")</url>
+    <name>United Arab Emirates</name>
+  </state>
+  <state id="UK">
+    <url>javascript:clickCountry("uk")</url>
+    <name>United Kingdom</name>
+  </state>
+  <state id="US">
+    <url>javascript:clickCountry("us")</url>
+    <name>United States</name>
+  </state>
+  <state id="UY">
+    <url>javascript:clickCountry("uy")</url>
+    <name>Uruguay</name>
+  </state>
+  <state id="UZ">
+    <url>javascript:clickCountry("uz")</url>
+    <name>Uzbekistan</name>
+  </state>
+  <state id="NH">
+    <url>javascript:clickCountry("vu")</url>
+    <name>Vanuatu</name>
+  </state>
+  <state id="VE">
+    <url>javascript:clickCountry("ve")</url>
+    <name>Venezuela</name>
+  </state>
+  <state id="VM">
+    <url>javascript:clickCountry("vn")</url>
+    <name>Vietnam</name>
+  </state>
+  <!-- <state id="WQ">
+    <url>javascript:clickCountry("WQ")</url>
+    <name>Wake Island</name>
+  </state>
+  <state id="WQ">
+    <url>javascript:clickCountry("WQ")</url>
+    <name>Wake Island</name>
+  </state> -->
+  <state id="WF">
+    <url>javascript:clickCountry("wf")</url>
+    <name>Wallis and Futuna</name>
+  </state>
+  <state id="WI">
+    <url>javascript:clickCountry("eh")</url>
+    <name>Western Sahara</name>
+  </state>
+  <!-- <state id="WS">
+    <url>javascript:clickCountry("WS")</url>
+    <name>Western Samoa</name>
+  </state> -->
+  <state id="YM">
+    <url>javascript:clickCountry("ye")</url>
+    <name>Yemen</name>
+  </state>
+  <state id="ZA">
+    <url>javascript:clickCountry("zm")</url>
+    <name>Zambia</name>
+  </state>
+  <state id="ZI">
+    <url>javascript:clickCountry("zw")</url>
+    <name>Zimbabwe</name>
+  </state>
+  
+</countrydata>

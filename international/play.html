@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>International Gold Noise</title>
+<style type="text/css">
+body {
+  margin: 0px;
+  background-color: #333;
+  text-align: center;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script>
+
+var idCount = 0;
+function generateId() {
+  idCount++;
+  return idCount;
+}
+
+function addPlayer(url) {
+  var playerDiv = $("<div></div>");
+  $("#container").append(playerDiv);
+  var uniqueId = "id" + generateId();
+  playerDiv.attr("id", uniqueId);
+  
+  var flashvars = {
+    file: url + ";stream.nsv",
+    type: "mp3",
+    volume: "50",
+    autostart: "true"
+  };
+  var params = {
+    allowfullscreen: false,
+    allowscriptaccess: "always"
+  };
+  var attributes = {};
+
+  swfobject.embedSWF("player.swf", uniqueId, "228", "20", "9.0.0","expressInstall.swf", flashvars, params, attributes);
+}
+
+function clearAllPlayers() {
+  $("#container").html("");
+}
+
+function loadCountry(suffix) {
+  $.ajax({
+    url: "http://boss.yahooapis.com/ysearch/web/v1/intitle%3A%22SHOUTcast+Administrator%22+site%3A."+suffix,
+    data: {
+      appid: "8b.UtJPIkY3kZ9uJrz4_Ol.RUgEJclD2ezxJOPE-",
+      format: "json",
+      count: 20
+    },
+    dataType: "jsonp",
+    success: function (data) {
+      if (!data.ysearchresponse.resultset_web) {
+        alert("Sorry couldn't find any radio stations there");
+        return false;
+      }
+      clearAllPlayers();
+      $.each(data.ysearchresponse.resultset_web, function (i, result) {
+        addPlayer(result.url);
+      });
+    }
+  });
+}
+
+
+function clickCountry(code) {
+  loadCountry(code.toLowerCase());
+}
+
+$(function () {
+  if (location.search.length > 1) {
+    loadCountry(location.search.substr(1));
+  }
+});
+
+</script>
+</head>
+<body>
+
+
+<div id="container"></div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>International Gold Noise</title>
+<style type="text/css">
+body {
+  margin: 0px;
+  background-color: #333;
+  text-align: center;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script>
+
+var idCount = 0;
+function generateId() {
+  idCount++;
+  return idCount;
+}
+
+function addPlayer(url) {
+  var playerDiv = $("<div></div>");
+  $("#container").append(playerDiv);
+  var uniqueId = "id" + generateId();
+  playerDiv.attr("id", uniqueId);
+  
+  var flashvars = {
+    file: url + ";stream.nsv",
+    type: "mp3",
+    volume: "50",
+    autostart: "true"
+  };
+  var params = {
+    allowfullscreen: false,
+    allowscriptaccess: "always"
+  };
+  var attributes = {};
+
+  swfobject.embedSWF("player.swf", uniqueId, "228", "20", "9.0.0","expressInstall.swf", flashvars, params, attributes);
+}
+
+function clearAllPlayers() {
+  $("#container").html("");
+}
+
+function loadCountry(suffix) {
+  $.ajax({
+    url: "http://boss.yahooapis.com/ysearch/web/v1/intitle%3A%22SHOUTcast+Administrator%22+site%3A."+suffix,
+    data: {
+      appid: "8b.UtJPIkY3kZ9uJrz4_Ol.RUgEJclD2ezxJOPE-",
+      format: "json",
+      count: 20
+    },
+    dataType: "jsonp",
+    success: function (data) {
+      if (!data.ysearchresponse.resultset_web) {
+        alert("Sorry couldn't find any radio stations there");
+        return false;
+      }
+      clearAllPlayers();
+      $.each(data.ysearchresponse.resultset_web, function (i, result) {
+        addPlayer(result.url);
+      });
+    }
+  });
+}
+
+
+function clickCountry(code) {
+  $('#iframe').attr('src', 'play.html?'+code);
+}
+
+</script>
+</head>
+<body>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="1100" height="600" id="zoom_map" align="top">
+<param name="movie" value="map/world.swf?data_file=map/data.xml" />
+<param name="quality" value="high" />
+<param name="bgcolor" value="#FFFFFF" />
+<embed src="map/world.swf?data_file=map/data.xml" quality="high" bgcolor="#FFFFFF"  width="1100" height="600" name="Clickable World Map" align="top" 
+type="application/x-shockwave-flash" 
+pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object>
+
+<br />
+
+<button onclick="$('#iframe').attr('src', 'play.html')">Stop</button>
+
+<br />
+
+<iframe id="iframe" src="play.html" width="1100" height="200" frameborder="0"></iframe>
+
+</body>
+</html>
